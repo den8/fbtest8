@@ -5,3 +5,11 @@
 <div id="user_nav">
   <%= link_to "Sign in with Facebook", "/auth/facebook" %>
 </div>
+
+
+<br/>
+<br/>
+
+<pre>
+<%= request.env["omniauth.auth"].to_yaml %>
+</pre>
