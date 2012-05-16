@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 class Admin::BaseController < ApplicationController
-  layout 'admin'
   before_filter :auth_filter
 
   private
